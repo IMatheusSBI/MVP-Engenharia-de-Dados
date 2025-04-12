@@ -134,11 +134,11 @@ A análise final dos dados, juntamente com as visualizações desenvolvidas, dem
 ### 6. Autoavaliação 
 Reflexão sobre o Projeto:
 
-Pontos Fortes:
+#### 6.1 Pontos Fortes:
 
 Foi um otimo desafio, apesar de trabalhar diretamente com PowerBI a alguns anos nunca havia ultilizado diversos recursos do Fabric, como o DataLake, Notebook, Papiline... Com isso juntei o util ao agradavel desenvolvendo um projeto para atender o MVP proposto quanto meu trabalho profissional. 
 
-Desafios Encontrados:
+#### 6.2 Desafios Encontrados:
 
 Ajustar os formatos de data e validação dos dados provenientes da API.
 
@@ -146,7 +146,20 @@ Garantir que as operações de merge incremental atualizem os dados sem afetar a
 
 Criar uma modelagem de dados que atendesse às necessidades de visualização e análise sem perder a integridade dos dados.
 
-Lições e Trabalhos Futuros:
+#### 6.3 Avaliação do Atingimento das Respostas às Perguntas de Negócio:
+
+Quantidade de Precipitação e Gatilhos de Alerta:
+O dashboard desenvolvido permite visualizar a quantidade de precipitação registrada em intervalos diários e semanais. Foram atendidas as perguntas sobre a mensuração do evento de chuva e a identificação dos gatilhos de alerta.
+
+Monitoramento dos Dispositivos:
+Através da coleta de informações dos dispositivos, o sistema exibe dados como status, último upload, porcentagem de bateria e dias sem resposta. Assim, é possível identificar quais pluviômetros estão offline ou apresentando falhas.
+
+Análise de Correlação:
+Embora a análise aprofundada de correlação entre falhas e eventos de chuva intensa ainda possa ser refinada em projetos futuros, o dashboard já fornece uma base sólida para a identificação de padrões e potenciais correlações.
+
+Em geral, as respostas propostas foram atingidas, permitindo um monitoramento integrado dos dados pluviométricos e dos dispositivos.
+
+#### 6.4 Lições e Trabalhos Futuros:
 
 Explorar análises preditivas para antecipar eventos críticos.
 
